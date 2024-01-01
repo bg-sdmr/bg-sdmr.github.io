@@ -65,6 +65,7 @@ jobs:
 
             # move build artifacts
             mv build/* .
+            mv build/.* .
 
             # commit changes
             git add -A
